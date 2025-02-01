@@ -1,0 +1,13 @@
+numpy
+opencv-python
+scikit-learn
+scipy
+einops
+thop
+torchmetrics
+PyWavelets
+timm
+pandas
+openpyxl
+transformers>=4.5.0
+dill
