@@ -40,7 +40,7 @@ The following dependencies are required to run the code:
 
 - Python 3.x
 - PyTorch 2.5.1
-- numpy[README.md](..%2F..%2FDocuments%2F%E6%96%87%E7%A8%BF%20-%20%E6%B4%AA%E4%B8%96%E9%BE%99%E7%9A%84MacBook%20Pro%2Fcode%2FRT-DETR%2FREADME.md)
+- numpy
 - opencv-python
 - scikit-learn
 - scipy
