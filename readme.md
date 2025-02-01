@@ -82,25 +82,14 @@ Before training, ensure all dependencies are installed, and the necessary parame
 python train.py
 ```
 
-### 4. Multi-GPU Training
-If you have multiple GPUs available, enable multi-GPU training by adding the following code to `train.py` or any relevant training script:
-
-```
-if torch.cuda.device_count() > 1:
-    print(f"Let's use {torch.cuda.device_count()} GPUs!")
-    model = nn.DataParallel(model)  # Use DataParallel
-```
-
-`DataParallel` will automatically distribute the model across multiple GPUs and handle parallel data processing, speeding up the training process.
-
-### 5. Model Evaluation
+### 4. Model Evaluation
 After training, you can evaluate the model on the test set using the following command:
 
 ```
 python train.py --eval -r <checkpoint>
 ```
 
-### 6. Configuration File
+### 5. Configuration File
 You can specify a configuration file for training or evaluation by using the `--config` parameter. This allows you to easily adjust hyperparameters and model settings for different experiments.
 
 ## Citation
