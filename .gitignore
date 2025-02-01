@@ -22,7 +22,7 @@ env/
 profile_default/
 ipython_config.py
 
-# Jupyter Notebook 输出文件（如 .html, .pdf 导出）
+# Jupyter Notebook 导出文件
 *.nbconvert.*
 *.out
 *.log
