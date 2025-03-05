@@ -1,4 +1,4 @@
-# A Multi-Scale Feature Fusion Framework Integrating Frequency Domain and Cross-View Attention for Dual-View X-ray Security Inspections
+# A Cross-View Feature Interaction Framework for Dual-View X-ray Security Inspections
 
 ## Project Overview
 This repository contains the official implementation of the paper *"A Multi-Scale Feature Fusion Framework Integrating Frequency Domain and Cross-View Attention for Dual-View X-ray Security Inspections"*. The framework is designed to improve the accuracy and robustness of dual-view X-ray security inspection systems by integrating frequency-domain features and cross-view attention mechanisms for effective feature fusion.
